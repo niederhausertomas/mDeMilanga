@@ -1,9 +1,5 @@
-import { useState } from 'react'
+
 import milanesaClasica from "../assets/images/milanesa-clasica.jpg"
-import milanesaNapolitana from "../assets/images/milanesa-napolitana.jpg"
-import milanesaCaballo from "../assets/images/milanesa-caballo.jpg"
-import milanesaPollo from "../assets/images/milanesa-pollo.jpg"
-import milanesaVegana from "../assets/images/milanesa-vegana.jpg"
 import { Link } from 'react-router-dom'
 
 
