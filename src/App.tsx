@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import Contact from './pages/Contact'
 import Subscription from './pages/Subscription'
 import Footer from './components/Footer'
+import SubscriptionForm from './pages/SubscriptionForm'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/subscription" element={<Subscription />} />
+        <Route path="/subscription-form/:planId" element={<SubscriptionForm />} />
         <Route path="/order" element={<Order />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />

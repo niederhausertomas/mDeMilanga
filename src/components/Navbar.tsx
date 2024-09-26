@@ -33,7 +33,7 @@ const Navbar = () => {
               className="flex flex-shrink-0 items-center text-3xl font-bold text-transparent bg-clip-text" 
               style={{ background: 'radial-gradient(circle, white 1%, #A98143 80%)', WebkitBackgroundClip: 'text' }}
             >
-              M DE MILANGA
+              "M DE MILANGA"
             </Link>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
