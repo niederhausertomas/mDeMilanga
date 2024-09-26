@@ -13,7 +13,7 @@ const Footer = () => {
               <h4 className="text-lg font-semibold mb-3">Enlaces rápidos</h4>
               <ul>
                 <li><Link to="/" className="hover:underline">Inicio</Link></li>
-                <li><Link to="/menu" className="hover:underline">Menú</Link></li>
+                <li><Link to="/order" className="hover:underline">Menú</Link></li>
                 <li><Link to="/subscription" className="hover:underline">Suscripción</Link></li>
                 <li><Link to="/contact" className="hover:underline">Contacto</Link></li>
               </ul>
